@@ -70,6 +70,12 @@ function Resume001() {
                   Summarize your main responsibilities and provide information
                   about the organization.
                 </p>
+                <ul >
+                   <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, odio!</li>
+                   <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, odio!</li>
+                   <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, odio!</li>
+
+                </ul>
               </div>
             </div>
             <div class="education">

@@ -90,3 +90,6 @@ p {
   color: #D1B594;
   text-transform: uppercase;
 }
+.ul li {
+  list-style-type: disc;
+}
