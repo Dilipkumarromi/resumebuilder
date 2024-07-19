@@ -38,7 +38,7 @@ function Resume001() {
           </div>
           <div class="left-column">
             <div>
-              <p className="contact">Contact</p>
+              <p className="text-title">Contact</p>
               <p>123-589-22-88</p>
               <p>youremail@mail.com</p>
               <p>City, State</p>
@@ -54,7 +54,7 @@ function Resume001() {
           </div>
           <div class="right-column">
             <div class="profile-summary">
-              <h6>Profile</h6>
+              <p className="text-title">PROFILE</p>
               <p>
                 Write a powerful performance summary here. Highlight your most
                 valuable skills, qualifications, achievements, credentials, and
@@ -62,7 +62,7 @@ function Resume001() {
               </p>
             </div>
             <div class="experience">
-              <h6>Professional Experience</h6>
+              <p className="text-title">Professional Experience</p>
               <div class="job">
                 <h6>Job Title</h6>
                 <p>Company Name | City, State | Start Date - End Date</p>
