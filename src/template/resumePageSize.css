@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+  font: 12pt "Calibri";
+}
+ 
+.page {
+  width: 21cm;
+  min-height: 29.7cm;
+  margin: 0;
+  padding: 0;
+  border: 1px #d3d3d3 solid;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.subpage {
+  border: 1px black solid;
+
+  outline: 2cm #ffeaea solid;
+}
+:root {
+    --orientation: portrait;
+}
+@page {
+  
+  size: portrait;
+  
+ 
+}
+@media print {
+  .page {
+    margin: 0;
+    padding: 0;
+    border: initial;
+    border-radius: initial;
+    width: initial;
+    min-height: initial;
+    box-shadow: initial;
+    background: initial;
+    page-break-after: always;
+    
+  }
+  body{
+    width: 21cm;
+    height: 29.7cm;
+    margin: 30mm 45mm 30mm 45mm; 
+    /* change the margins as you want them to be. */
+} 
+}
